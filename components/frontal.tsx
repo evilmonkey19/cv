@@ -6,11 +6,11 @@ export default function Frontal() {
         <img src="about_me.jpg" alt="This is a photo about me, Enric :D" class="rounded-full h-72" />
         </div>
         <div className="flex flex-col p-4 align-left">
-          <div className="text-3xl text-[#bffcf9]">
+          <div className="text-3xl md:text-4xl text-[#bffcf9]">
             Hi, I'm Enric! <div className="animate__animated animate__jackInTheBox inline-block">👋</div>
           </div>
           <div className="animate__animated animate__headShake animate__delay-1s">
-            <p className="text-lg text-[#bffcf9]">Software Engineer</p>
+            <p className="text-lg md:text-xl text-[#bffcf9]">Software Engineer</p>
           </div>
         </div>
       </div>
