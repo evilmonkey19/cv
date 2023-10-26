@@ -6,13 +6,13 @@ import IconNoCopyright from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/no-c
 
 export default function Footer() {
   return (
-    <div className="md:grid grid-cols-7 pb-4 flex flex-col gap-4">
-      <div className="col-start-2 col-span-5 flex flex-row text-[#bffcf9] justify-between w-full">
+    <div className="md:grid grid-cols-7 pb-4 flex flex-col gap-4 m-8">
+      <div className="col-start-2 col-span-5 flex flex-col gap-4 items-center md:gap-0 md:flex-row text-[#bffcf9] justify-between w-full">
         <div className="flex-1">
           <h1 className="font-bold text-2xl">Enric Perpinyà Pitarch</h1>
           <p className="text(lg [#47817f])">Software Engineer</p>
         </div>
-        <div className="flex-1 flex flex-col items-center">
+        <div className="flex-1 flex flex-col md:items-center">
           <h1 className="font-bold text-2xl">Contact</h1>
           <div className="flex flex-row gap-2">
             <a href="mailto:eperpinyapitarch@gmail.com"><IconMail class="inline-block" aria-hidden="true" /></a>
@@ -20,7 +20,7 @@ export default function Footer() {
             <a href="https://github.com/evilmonkey19/"><IconBrandGithub class="inline-block" aria-hidden="true" /></a>
           </div>
         </div>
-        <div className="flex-1 flex flex-col items-center justify-center">
+        <div className="flex-1 flex flex-col md:items-end justify-start">
           <a href="https://fresh.deno.dev">
           <img
             width="180"
