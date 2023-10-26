@@ -1,7 +1,9 @@
 import { Translation } from "../utils/types.ts";
+import IconArrowBigDownLines from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/arrow-big-down-lines.tsx"
+
 
 const Frontal = (data: { translation: Translation["frontal"] }) => (
-  <div class="top-0 left-0" style="height: 100svh;">
+  <div class="h-full" style="height: 100svh;">
     <div class="flex flex-col items-center justify-center h-full p-4 gap-8">
       <div class="flex justify-center">
       <img src="about_me.jpg" alt="This is a photo about me, Enric :D" class="rounded-full h-72" />
