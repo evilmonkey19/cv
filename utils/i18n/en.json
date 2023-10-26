@@ -1,0 +1,81 @@
+{
+    "frontal": {
+        "title": "Hi, I'm Enric!",
+        "subtitle": "Software Engineer"
+    },
+    "me": {
+        "title": "About Me",
+        "description": "Enthusiastic about leveraging technology to enhance lives. I'm a passionate software engineer with a background in computer science and a strong interest in cloud and web development, with a focus on the protocol design and video streaming platforms. I'm a quick learner and a team player, always looking for new challenges and opportunities to grow.",
+        "keywords": ["cloud", "web", "development", "protocol", "design", "video", "streaming"]
+    },
+    "education": {
+        "title": "education",
+        "degrees":
+        [
+            {
+                "university": "European Instite of Technology (EIT) 🇪🇺",
+                "degree": "Master's degree in ICT Innovation - speciality Cloud and Network Infrastructures",
+                "degree-keywords": ["Master", "Cloud", "and", "Network", "Infrastructures"],
+                "more-info": "1 year at Aalto University 🇫🇮 and 1 year at KTH Royal Institute of Technology 🇸🇪",
+                "keywords-more-info": ["Aalto", "University", "🇫🇮", "KTH", "🇸🇪"],
+                "web-text": "Program's website",
+                "website": "https://masterschool.eitdigital.eu",
+                "href": "https://masterschool.eitdigital.eu/cloud-and-network-infrastructures",
+                "date": "August 2022 - On going"       
+            },
+            {
+                "university": "Politechnical University of Catalonia (UPC)",
+                "degree": "Bachelor's degree in Telecommunications Engineering - speciality Telematics",
+                "degree-keywords": ["Bachelor", "Telematics"],
+                "more-info": "5 years at Escola Tècnica Superior d'Enginyers de Telecomunicacions de Barcelona ETSETB 🇪🇸",
+                "keywords-more-info": ["ETSETB", "🇪🇸"],
+                "web-text": "Program's website",
+                "website": "https://telecos.upc.edu/en/",
+                "href": "https://telecos.upc.edu/en/study-programs/degrees/bachelors-degree-in-telecommunications-technologies-and-services-engineering/telematics-systems",
+                "date": "September 2017 - May 2022" 
+            }
+        ]
+    },
+    "skills": "skills",
+    "projects": {
+        "title": "projects",
+        "projects": [
+            { 
+              "name": "Engresca't",
+              "description": "Engrescat is a contest held in Barcelona by Telecogresca, the biggest university festival organized by university students in Spain, which brings over 15 000 people. I made this website for deciding the finalist who will be able to perform at the festival. I made it using Wagtail - Django and DaisyUI - TailwindCSS as the main frameworks/ libraries. There is an admin panel to control the phases, editions, contestants, and all the business logic and the content of the website itself.",
+              "href": "https://engrescat.org/en/",
+              "repo": "",
+              "tags": ["Python", "Django", "Wagtail", "Full-stack", "TailwindCSS", "CI/CD"]
+            },
+            {
+              "name": "Namubufferi",
+              "description": "I designed an internal website for Athene Guild at Aalto University. I made it for managing the fridge inside the guild. It handles all the transactions and the payment gateway using MobilePay (the mobile payment system in Finland).There is as well unit-testing done which is run in the CI/CD pipeline. It uses Django and tailwindCSS.",
+              "href": "https://namubufferi.fi",
+              "repo": "https://github.com/athenekilta/namubufferi/tree/cleanage",
+              "tags": ["Python", "Django", "Full-stack", "TailwindCSS", "CI/CD"]
+            },
+            {
+              "name": "This.web",
+              "description": "I did this website to sharp my skills in Typescript and Deno. I used Fresh as the web framework and TailwindCSS as the CSS framework. I deployed it in Deno Deploy.",
+              "href": "https://perpinya.eu",
+              "repo": "https://github.com/evilmonkey19/cv",
+              "tags": ["Typescript", "Deno", "Fresh", "TailwindCSS", "Full-stack", "CI/CD"]
+            },
+            {
+              "name": "messiah.com",
+              "description": "I designed a static website for a barbershop in Barcelona. It was one of my first projects. I made it using HTML (Pug), CSS (Stylus), and pure Javascript. It is deploy in Cloudflare Pages.",
+              "href": "https://mess1ah.com",
+              "repo": "https://github.com/evilmonkey19/mess1ah",
+              "tags": ["HTML", "CSS", "Javascript", "Frontend", "Stylus", "Pug"]
+            }
+        ]
+    },
+    "contact": {
+        "title": "contact"
+    },
+    "footer": {
+        "title": "Software Engineer",
+        "contact": "contact",
+        "copyright": "Free to use and to copy, but please give credit to the author."
+    }
+}

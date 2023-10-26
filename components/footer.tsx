@@ -2,18 +2,17 @@ import IconBrandLinkedin from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/br
 import IconMail from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/mail.tsx"
 import IconBrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-github.tsx"
 import IconNoCopyright from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/no-copyright.tsx"
+import { Translation } from "../utils/types.ts";
 
-
-export default function Footer() {
-  return (
-    <div className="md:grid grid-cols-7 pb-4 flex flex-col gap-4 m-8">
+const Footer = (data: { translation: Translation["footer"] }) => (
+  <div className="md:grid grid-cols-7 pb-4 flex flex-col gap-4 m-8">
       <div className="col-start-2 col-span-5 flex flex-col gap-4 items-center md:gap-0 md:flex-row text-[#bffcf9] justify-between w-full">
         <div className="flex-1">
           <h1 className="font-bold text-2xl">Enric Perpinyà Pitarch</h1>
-          <p className="text(lg [#47817f])">Software Engineer</p>
+          <p className="text(lg [#47817f])">{data.translation.title}</p>
         </div>
         <div className="flex-1 flex flex-col md:items-center">
-          <h1 className="font-bold text-2xl">Contact</h1>
+          <h1 className="font-bold text-2xl">{data.translation.contact}</h1>
           <div className="flex flex-row gap-2">
             <a href="mailto:eperpinyapitarch@gmail.com"><IconMail class="inline-block" aria-hidden="true" /></a>
             <a href="https://linkedin.com/in/enric-perpinyà-pitarch-715088106"><IconBrandLinkedin class="inline-block" aria-hidden="true" /></a>
@@ -32,8 +31,9 @@ export default function Footer() {
         </div>
       </div>
       <p className="col-start-2 col-span-5 flex flex-row gap-2 justify-center items-center w-full text-[#bffcf9] text-xs">
-        <IconNoCopyright />Free to use and to copy, but please give credit to the author.
+        <IconNoCopyright />{data.translation.copyright}
       </p>
     </div>
-  );
-}
+);
+
+export default Footer;

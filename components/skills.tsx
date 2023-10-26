@@ -6,11 +6,11 @@ import IconBrandGit from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-g
 import IconBrandAws from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-aws.tsx"
 import IconBrandDjango from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-django.tsx"
 import IconBrandDeno from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-deno.tsx"
+import { Translation } from "../utils/types.ts";
 
-export default function Skills() {
-  return (
-    <div className="px-4 text-[#bffcf9] w-full flex flex-col gap-4">
-      <h1 className="text-xl uppercase font-bold">Skills</h1>
+const Skills = (data: { translation: Translation["skills"] }) => (
+  <div className="px-4 text-[#bffcf9] w-full flex flex-col gap-4">
+      <h1 className="text-xl uppercase font-bold">{data.translation}</h1>
       <div className="flex flex-row flex-wrap xl:grid grid-cols-5 justify-between gap-4 xl:gap-0">
         <div className="flex flex-col gap-1 xl:col-start-1">
           <div className="flex flex-row justify-between text-lg text-[#bffcf9] w-40">
@@ -83,5 +83,6 @@ export default function Skills() {
         </div>
       </div>
     </div>
-  )
-}
+);
+
+export default Skills;
