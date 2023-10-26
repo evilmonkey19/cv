@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <div className="border([#bffcf9] 2) rounded-xl p-4 text-[#bffcf9]">
+    <div className="border([#bffcf9] 2) rounded-xl p-4 text-[#bffcf9] flex flex-col gap-2">
       <h1 className="text-3xl uppercase font-bold col-span-1 text-left">About me</h1>
       <p className="text-lg col-start-2 text-left">
       Enthusiastic about leveraging technology to enhance lives. I'm a passionate
