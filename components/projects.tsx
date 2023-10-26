@@ -2,7 +2,7 @@ import { Translation } from "../utils/types.ts";
 
 const Projects = (data: { translation: Translation["projects"] }) => (
   <div className="flex flex-col gap-4 w-full px-4">
-    <h1 className="text-3xl text-[#bffcf9] uppercase">{data.translation.title}</h1>
+    <h1 className="text-3xl text-[#bffcf9] uppercase font-bold">{data.translation.title}</h1>
     <div className="flex flex-col xl:grid grid-cols-2 gap-8">
       {data.translation.projects.map((project) => (
       <div className="border([#bffcf9] 2 dotted) rounded-xl p-4 text-[#bffcf9] flex flex-col justify-between gap-4">
