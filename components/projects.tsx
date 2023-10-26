@@ -16,7 +16,7 @@ export default function Projects() {
     },
     {
       name: "This.website",
-      description: "",
+      description: "I did this website to sharp my skills in Typescript and Deno. I used Fresh as the web framework and TailwindCSS as the CSS framework. I deployed it in Deno Deploy.",
       href: "https://perpinya.eu",
       repo: "https://github.com/evilmonkey19/cv",
       tags: ["Typescript", "Deno", "Fresh", "TailwindCSS", "Full-stack", "CI/CD"],
