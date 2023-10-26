@@ -4,12 +4,12 @@ export default {
   selfURL: import.meta.url,
   theme: {
     fontFamily: {
-      sans: 'IBM Plex Sans, Noto Color Emoji, sans-serif',
+      sans: 'IBM Plex Sans, Apple Color Emoji, sans-serif',
 
     },
   },
   preflight: {
-    '@import': `url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Noto+Color+Emoji&display=swap')`,
+    '@import': `url('https://fonts.cdnfonts.com/css/ibm-plex-sans')`,
   }
 } as Options;
 

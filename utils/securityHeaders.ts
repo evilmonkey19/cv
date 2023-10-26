@@ -1,10 +1,10 @@
 const contentSecurityPolicy = `
     default-src 'none'; 
     connect-src 'self'; 
-    font-src 'self'; 
+    font-src 'self' https://fonts.cdnfonts.com/; 
     img-src 'self' https://fresh.deno.dev; 
-    script-src 'self' 'unsafe-inline'; 
-    style-src 'unsafe-inline' 
+    script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; 
+    style-src 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.cdnfonts.com/;
 `;
 
 const SecurityHeaders = [
