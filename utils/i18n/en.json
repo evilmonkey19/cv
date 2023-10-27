@@ -1,7 +1,7 @@
 {
     "frontal": {
         "title": "Hi, I'm Enric!",
-        "subtitle": "Software Engineer"
+        "subtitle": "Telematics Engineer"
     },
     "me": {
         "title": "About Me",
@@ -16,7 +16,7 @@
                 "university": "European Instite of Technology (EIT) 🇪🇺",
                 "degree": "Master's degree in ICT Innovation - speciality Cloud and Network Infrastructures",
                 "degree-keywords": ["Master", "Cloud", "and", "Network", "Infrastructures"],
-                "more-info": "1 year at Aalto University 🇫🇮 and 1 year at KTH Royal Institute of Technology 🇸🇪",
+                "more-info": "1 year at Aalto University 🇫🇮 and 1 year at Kungliga Tekniska Högskolan KTH 🇸🇪",
                 "keywords-more-info": ["Aalto", "University", "🇫🇮", "KTH", "🇸🇪"],
                 "web-text": "Program's website",
                 "website": "https://masterschool.eitdigital.eu",
@@ -74,7 +74,7 @@
         "title": "contact"
     },
     "footer": {
-        "title": "Software Engineer",
+        "title": "Telematics Engineer",
         "contact": "contact",
         "copyright": "Free to use and to copy, but please give credit to the author."
     }

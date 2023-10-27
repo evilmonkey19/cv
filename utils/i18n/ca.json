@@ -1,11 +1,11 @@
 {
     "frontal": {
         "title": "Hola, sóc n'Enric!",
-        "subtitle": "Desenvolupador de Software"
+        "subtitle": "Enginyer Telemátic"
     },
     "me": {
         "title": "Sobre mi",
-        "description": "M'apassiona aprofitar sa tecnologia per millorar la vida de sa gent. Sóc un apassionat enginyer de software amb una formació en informàtica i un fort interès en cloud i en desenvolupament web, amb un enfocament en protocols i live-streaming de video. Sóc un aprenent ràpid i un jugador d'equip, sempre a la recerca de nous reptes i oportunitats per créixer.",
+        "description": "M'apassiona aprofitar la tecnologia per millorar la vida de la gent. Sóc un apassionat enginyer de software amb una formació en informàtica i un fort interès en cloud i en desenvolupament web, amb un enfocament en protocols i live-streaming de video. Sóc un aprenent ràpid i un jugador d'equip, sempre a la recerca de nous reptes i oportunitats per créixer.",
         "keywords": ["cloud", "desenvolupament", "web", "protocols", "live-streaming"]
     },
     "education": {
@@ -16,7 +16,7 @@
                 "university": "Institut Europeu de Tecnologia (EIT) 🇪🇺",
                 "degree": "Màster en Innovació ICT - especialització en Cloud i Infraestructures de Xarxa",
                 "degree-keywords": ["Màster", "Cloud", "i", "Infraestructures", "de", "Xarxa"],
-                "more-info": "1 any a la Universitat Aalto 🇫🇮 i 1 any a l'Institut Reial de Tecnologia de KTH 🇸🇪",
+                "more-info": "1 any a la Universitat Aalto 🇫🇮 i 1 any al Kungliga Tekniska Högskolan KTH 🇸🇪",
                 "keywords-more-info": ["Aalto", "Universitat", "🇫🇮", "KTH", "🇸🇪"],
                 "web-text": "Web del màster",
                 "website": "https://masterschool.eitdigital.eu",
@@ -74,7 +74,7 @@
         "title": "contacte"
     },
     "footer": {
-        "title": "Desenvolupador de Software",
+        "title": "Enginyer Telemátic",
         "contact": "Contacte",
         "copyright": "es pot utilitzar i copiar lliurement, pero es demana per favor donar crèdit a s'autor"
     }

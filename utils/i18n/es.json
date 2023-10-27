@@ -1,7 +1,7 @@
 {
     "frontal": {
         "title": "Hola, soy Enric!",
-        "subtitle": "Desarrollador de Software"
+        "subtitle": "Ingeniero Telemático"
     },
     "me": {
         "title": "Sobre mi",
@@ -16,7 +16,7 @@
                 "university": "Instituto Europeo de Tecnologia (EIT) 🇪🇺",
                 "degree": "Master en ICT Innovation - especialidad en Cloud e Infraestructuras de Redes",
                 "degree-keywords": ["Master", "Cloud", "e", "Infraestructuras", "de", "Redes"],
-                "more-info": "1 año en Universidad Aalto 🇫🇮 y 1 año en KTH Royal Institute of Technology 🇸🇪",
+                "more-info": "1 año en Universidad Aalto 🇫🇮 y 1 año en Kungliga Tekniska Högskolan KTH  🇸🇪",
                 "keywords-more-info": ["Aalto", "Universidad", "🇫🇮", "KTH", "🇸🇪"],
                 "web-text": "Web del master",
                 "website": "https://masterschool.eitdigital.eu",
@@ -38,7 +38,7 @@
     },
     "skills": "Habilidades",
     "projects": {
-        "title": "projectos",
+        "title": "proyectos",
         "projects": [
             { 
               "name": "Engresca't",
@@ -74,7 +74,7 @@
         "title": "contacto"
     },
     "footer": {
-        "title": "Desarrollador de Software",
+        "title": "Ingeniero Telemático",
         "contact": "Contacto",
         "copyright": "Se puede utilizar y copiar libremente, pero se ruega dar crédito al autor."
     }
