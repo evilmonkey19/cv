@@ -71,11 +71,11 @@
         ]
     },
     "contact": {
-        "title": "contact"
+        "title": "Contact"
     },
     "footer": {
         "title": "Telematics Engineer",
-        "contact": "contact",
+        "contact": "Contact",
         "copyright": "Free to use and to copy, but please give credit to the author."
     }
 }
