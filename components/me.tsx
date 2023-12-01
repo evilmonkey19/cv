@@ -1,7 +1,7 @@
 import { Translation } from "../utils/types.ts";
 
 const AboutMe = (data: { translation: Translation["me"] }) => (
-  <div className="border([#bffcf9] 2) rounded-xl p-4 text-[#bffcf9] flex flex-col gap-2">
+  <div className="border-[#bffcf9] border-2 rounded-xl p-4 text-[#bffcf9] flex flex-col gap-2">
     <h1 className="text-3xl uppercase font-bold col-span-1 text-left">{data.translation.title}</h1>
     <p className="text-lg col-start-2 text-left">
       {data.translation.description.split(' ').map((word, index) => 

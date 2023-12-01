@@ -1,4 +1,4 @@
-import { MiddlewareHandlerContext } from "$fresh/server.ts";
+import { FreshContext } from "$fresh/server.ts";
 
 import es from "../utils/i18n/es.json" assert { type: "json" };
 import en from "../utils/i18n/en.json" assert { type: "json" };
@@ -10,7 +10,7 @@ import { State } from "../utils/types.ts";
 export const handler = [
   async function setLanguage(
     req: Request,
-    ctx: MiddlewareHandlerContext<State>,
+    ctx: FreshContext<State>,
   ) {
     const cookie = req.headers.get("cookie");
     if (cookie && cookie.includes("lang")) {
@@ -31,7 +31,7 @@ export const handler = [
   },
   async function setSecurityHeaders(
     _req: Request,
-    ctx: MiddlewareHandlerContext<State>,
+    ctx: FreshContext<State>,
   ) {
     const resp = await ctx.next();
     SecurityHeaders.map((header) => {

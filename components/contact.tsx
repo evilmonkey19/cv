@@ -4,7 +4,7 @@ import IconBrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/bran
 import { Translation } from "../utils/types.ts";
 
 const Contact = (data: { translation: Translation["contact"] }) => (
-  <div className="flex flex-col gap-2 text-[#bffcf9] w-full p-4 rounded-xl border(2 [#bffcf9])">
+  <div className="flex flex-col gap-2 text-[#bffcf9] w-full p-4 rounded-xl border-2 border-[#bffcf9]">
     <h1 className="w-min text-3xl uppercase font-bold">{data.translation.title}</h1>
     <div className="xl:grid grid-cols-8 items-center">
       <p className="text-lg col-span-1 w-min flex flex-row items-center gap-2">

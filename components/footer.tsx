@@ -9,7 +9,7 @@ const Footer = (data: { translation: Translation["footer"] }) => (
       <div className="col-start-2 col-span-5 flex flex-col gap-4 items-center md:gap-0 md:flex-row text-[#bffcf9] justify-between w-full">
         <div className="flex-1">
           <h1 className="font-bold text-2xl">Enric Perpinyà Pitarch</h1>
-          <p className="text(lg [#47817f])">{data.translation.title}</p>
+          <p className="text-lg text-[#47817f]">{data.translation.title}</p>
         </div>
         <div className="flex-1 flex flex-col md:items-center">
           <h1 className="font-bold text-2xl">{data.translation.contact}</h1>

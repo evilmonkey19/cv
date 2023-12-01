@@ -1,10 +1,10 @@
-import { LayoutProps } from "$fresh/server.ts";
+import { PageProps } from "$fresh/server.ts";
 import Footer from "../components/footer.tsx";
 import Menu from "../components/menu.tsx";
 
 import { State } from "../utils/types.ts";
 
-export default function Layout({ Component, state }: LayoutProps) {
+export default function Layout({ Component, state }: PageProps) {
   const lang = state.lang as State["lang"];
   const translation = state.translation as State["translation"];
 
