@@ -21,12 +21,12 @@ const Footer = (data: { translation: Translation["footer"] }) => (
         </div>
         <div className="flex-1 flex flex-col md:items-end justify-start">
           <a href="https://fresh.deno.dev">
-          <img
-            width="180"
-            height="20"
-            src="https://fresh.deno.dev/fresh-badge-dark.svg"
-            alt="Made with Fresh"
-          />
+            <img
+              width="180"
+              height="20"
+              src="fresh-badge-dark.svg"
+              alt="Made with Fresh"
+            />
           </a>
         </div>
       </div>

@@ -8,4 +8,5 @@
 # Fresh build directory
 _fresh/
 .vscode
+.DS_Store
 
