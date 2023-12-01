@@ -1,9 +1,11 @@
-import { PageProps } from "$fresh/server.ts";
+import { PageProps, FreshContext } from "$fresh/server.ts";
+import { State } from "../utils/types.ts";
+
 // import 'animate.css';
 
-export default function App({ Component }: PageProps) {
+export default function App({ Component }: PageProps, ctx: FreshContext<State>) {
   return (
-    <html>
+    <html lang={(ctx.state && ctx.state.lang) ? ctx.state.lang : 'en'}>
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

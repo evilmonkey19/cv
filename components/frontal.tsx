@@ -6,7 +6,7 @@ const Frontal = (data: { translation: Translation["frontal"] }) => (
   <div class="h-full" style="height: 100svh;">
     <div class="flex flex-col items-center justify-center h-full gap-8 w-full">
       <div class="flex justify-center p-4">
-      <img src="about_me.jpg" alt="This is a photo about me, Enric :D" class="rounded-full h-72" />
+      <img src="about_me.webp" alt="This is a photo about me, Enric :D" class="rounded-full h-72" width="288px" height="288px" />
       </div>
       <div className="flex flex-col p-4 align-left">
         <div className="text-3xl md:text-4xl text-[#bffcf9]">
