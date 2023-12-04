@@ -1,12 +1,28 @@
+import { useState, useEffect } from "preact/hooks";
 import { Translation } from "../utils/types.ts";
-import IconArrowBigDownLines from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/arrow-big-down-lines.tsx"
-
 
 const Frontal = (data: { translation: Translation["frontal"] }) => (
+
+
   <div class="h-full" style="height: 100svh;">
+    <p className="text-white"></p>
     <div class="flex flex-col items-center justify-center h-full gap-8 w-full">
       <div class="flex justify-center p-4">
-      <img src="about_me.webp" alt="This is a photo about me, Enric :D" class="rounded-full h-72" width="288px" height="288px" />
+        <picture>
+          <source media="print" srcset="about_me.webp"/>
+        <img 
+          srcset="
+          about_me-300.webp 300w,
+          about_me.webp
+          "
+          sizes="
+            (max-width: 768px) 300px,
+            100vw
+          "
+          alt="This is a photo about me, Enric :D" 
+          class="rounded-full w-64 md:w-96" 
+        />
+        </picture>
       </div>
       <div className="flex flex-col p-4 align-left">
         <div className="text-3xl md:text-4xl text-[#bffcf9]">
