@@ -11,6 +11,8 @@ export default function App({ Component, state }: PageProps) {
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Hi!👋 This is Enric and you about to look at my website. Enjoy!" />
+        <meta name="author" content="Enric Perpinyà" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="stylesheet" href="/styles.css" />
         <link rel="icon" href="/favicon.ico" />

@@ -14,9 +14,9 @@ const Footer = (data: { translation: Translation["footer"] }) => (
         <div className="flex-1 flex flex-col md:items-center">
           <h1 className="font-bold text-2xl">{data.translation.contact}</h1>
           <div className="flex flex-row gap-2">
-            <a href="mailto:eperpinyapitarch@gmail.com"><IconMail class="inline-block" aria-hidden="true" /></a>
-            <a href="https://linkedin.com/in/enric-perpinyà-pitarch-715088106"><IconBrandLinkedin class="inline-block" aria-hidden="true" /></a>
-            <a href="https://github.com/evilmonkey19/"><IconBrandGithub class="inline-block" aria-hidden="true" /></a>
+            <a href="mailto:eperpinyapitarch@gmail.com"><IconMail class="inline-block" aria-label="Email link" /></a>
+            <a href="https://linkedin.com/in/enric-perpinyà-pitarch-715088106"><IconBrandLinkedin class="inline-block" aria-label="Linkedin link" /></a>
+            <a href="https://github.com/evilmonkey19/"><IconBrandGithub class="inline-block" aria-label="Github link" /></a>
           </div>
         </div>
         <div className="flex-1 flex flex-col md:items-end justify-start">

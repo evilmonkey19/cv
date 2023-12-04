@@ -11,7 +11,7 @@ const Menu = (data: { lang: State["lang"] }) => (
         target="_blank"
         class="border-2 border-[#47817f] rounded-lg py-2 px-3 font-bold hover:bg-[#47817f] hover:text-[#bffcf9] transition-all bg-black"
       >
-        <IconFileCv class="w-6 h-6" aria-hidden="true"/>
+        <IconFileCv class="w-6 h-6" aria-label="CV"/>
       </a>
     </div>
   </div>
