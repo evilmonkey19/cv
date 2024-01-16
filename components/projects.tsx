@@ -8,7 +8,12 @@ const Projects = (data: { translation: Translation["projects"] }) => (
       <div className="border-[#bffcf9] border-2 border-dotted rounded-xl p-4 text-[#bffcf9] flex flex-col justify-between gap-4">
         <div className="relative flex flex-col gap-2">
           <h1 className="text-2xl">{project.name}</h1>
-          <a href={project.href} className="underline text-lg text-[#00c9c8] hover:text-[#47817f] w-min">{project.href}</a>
+          <a href={project.href} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="underline text-lg text-[#00c9c8] hover:text-[#47817f] w-min">
+            {project.href}
+          </a>
           <p className="text-sm">{project.description}</p>
           { project.repo && (
             <a href={project.repo} className="absolute top-0 right-0 w-min text-xs text-[#00c9c8] border-2 border-[#47817f] rounded-full py-1 px-2 underline hover:bg-[#47817f]">Github</a>
