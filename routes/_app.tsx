@@ -20,7 +20,7 @@ export default function App({ Component, state }: PageProps) {
         <link rel="preload" href="/fonts/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
         <title>Enric Perpinyà - Home</title>
       </head>
-      <body className="bg-black">
+      <body className="bg-[#090909]">
         <Component />
       </body>
     </html>
