@@ -18,10 +18,10 @@ const Education = (data: { translation: Translation["education"] }) => (
               []
             )}
           </p>
-          <p className="text-xs text-[#47817f]">
+          <p className="text-[#47817f]">
             {degree["more-info"].split(' ').map((word, index) => 
               degree['keywords-more-info'].includes(word) 
-                ? <span key={index} className="text-sm text-[#00c9c8]">{word}</span> 
+                ? <span key={index} className="text-[#00c9c8]">{word}</span> 
                 : word
             ).reduce((prev, curr, i) => 
               i === 0 ? [curr] : [prev, ' ', curr], 
