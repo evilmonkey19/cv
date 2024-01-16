@@ -1,4 +1,4 @@
-import Language from "../islands/language.tsx";
+import Language from "./language.tsx";
 import { State } from "../utils/types.ts";
 import IconFileCv from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/file-cv.tsx"
 

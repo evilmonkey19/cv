@@ -4,7 +4,6 @@ import Skills from "../components/skills.tsx";
 import Education from "../components/education.tsx";
 import Projects from "../components/projects.tsx";
 import Contact from "../components/contact.tsx";
-import Menu from "../components/menu.tsx";
 
 import { State } from "../utils/types.ts";
 import { RouteContext } from "$fresh/server.ts";

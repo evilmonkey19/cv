@@ -41,6 +41,10 @@ const SecurityHeaders = [
     key: "Permissions-Policy",
     value: "camera=(), microphone=(), geolocation=()",
   },
+  {
+    key: "Set-Cookie",
+    value: "HttpOnly; Secure; SameSite=Strict",
+  }
 ];
 
 export default SecurityHeaders;

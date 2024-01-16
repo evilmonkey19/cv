@@ -6,7 +6,7 @@ import * as $_app from "./routes/_app.tsx";
 import * as $_layout from "./routes/_layout.tsx";
 import * as $_middleware from "./routes/_middleware.tsx";
 import * as $index from "./routes/index.tsx";
-import * as $language from "./islands/language.tsx";
+
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -16,9 +16,7 @@ const manifest = {
     "./routes/_middleware.tsx": $_middleware,
     "./routes/index.tsx": $index,
   },
-  islands: {
-    "./islands/language.tsx": $language,
-  },
+  islands: {},
   baseUrl: import.meta.url,
 } satisfies Manifest;
 
