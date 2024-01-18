@@ -1,9 +1,6 @@
 import { PageProps } from "$fresh/server.ts";
 import { State } from "../utils/types.ts";
 
-// import 'animate.css';
-
-
 export default function App({ Component, state }: PageProps) {
   const lang = state.lang as State["lang"];
   return (
