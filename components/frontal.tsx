@@ -19,7 +19,7 @@ const Frontal = (data: { translation: Translation["frontal"] }) => (
       </picture>
       <div className="flex flex-col p-4 align-left">
         <div className="text-3xl text-[#bffcf9]">
-          {data.translation.title} <div className="animate__animated animate__jackInTheBox inline-block animate__slow">👋</div>
+          {data.translation.title} <div className="wave">👋</div>
         </div>
         <p className="text-lg md:text-xl text-[#bffcf9]">{data.translation.subtitle}</p>
       </div>
