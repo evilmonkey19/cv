@@ -6,16 +6,14 @@ const Frontal = (data: { translation: Translation["frontal"] }) => (
   <div class="h-full" style="height: 100svh;">
     <div class="flex flex-col items-center justify-center h-full gap-4 w-full">
       <picture>
-        <source media="print" srcset="about_me.webp"/>
-      <img 
-        srcset="
-        about_me-300.webp 300w,
-        about_me.webp
-        "
-        sizes="15vh"
-        alt="This is a photo about me, Enric :D" 
-        class="rounded-full" 
-      />
+        <source srcset="about_me_1000.webp" media="(min-width: 768px)" />
+        <source srcset="about_me_400.webp" media="(min-width: 640px)" />
+        <img
+          src="about_me_400.webp"
+          title="This is a photo about me, Enric :D"
+          alt="This is a photo about me, Enric :D"
+          class="rounded-full h-96"
+        />
       </picture>
       <div className="flex flex-col p-4 align-left">
         <div className="text-3xl text-[#bffcf9]">
