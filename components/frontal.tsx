@@ -12,7 +12,7 @@ const Frontal = (data: { translation: Translation["frontal"] }) => (
           src="about_me_400.webp"
           title="This is a photo about me, Enric :D"
           alt="This is a photo about me, Enric :D"
-          class="rounded-full h-96"
+          class="rounded-full max-h-96"
         />
       </picture>
       <div className="flex flex-col p-4 align-left">
