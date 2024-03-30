@@ -5,8 +5,8 @@
     },
     "me": {
         "title": "Sobre mi",
-        "description": "M'apassiona aprofitar la tecnologia per millorar la vida de la gent. Sóc un apassionat enginyer de software amb una formació en informàtica i un fort interès en cloud i en desenvolupament web, amb un enfocament en protocols i live-streaming de video. Sóc un aprenent ràpid i un jugador d'equip, sempre a la recerca de nous reptes i oportunitats per créixer.",
-        "keywords": ["cloud", "desenvolupament", "web", "protocols", "live-streaming"]
+        "description": "Soc enginyer de xarxes i software graduat en telecomunicacions amb un doble màster en Cloud i infraestructures de xarxes per Aalto (Finlàndia) i KTH (Suècia). He participat en projectes de codi obert com ntc-templates que milers de persones utilitzen diàriament, i també he desenvolupat diversos llocs web que tenen un tràfic significatiu. La part tècnica és important, però la persona que hi ha al darrere ho és encara més, així que si vols conèixer-me, no dubtis a ficar-te amb contacte amb mi!",
+        "keywords": ["enginyer", "software", "Cloud", "infraestructures", "xarxes", "telecomunicacions", "Finlandia", "Aalto", "KTH", "Suècia", "ntc-templates", "codi", "obert"]
     },
     "education": {
         "title": "Educació",
@@ -55,18 +55,32 @@
               "tags": ["Python", "Django", "Full-stack", "TailwindCSS", "CI/CD"]
             },
             {
-              "name": "Aquest.web",
+              "name": "Perpinya.eu",
               "description": "Vaig fer aquesta web per millorar les meves habilitats en Typescript i Deno. Vaig utilitzar Fresh com a framework web i TailwindCSS com a framework CSS. Ho vaig desplegar a Deno Deploy.",
               "href": "https://perpinya.eu",
               "repo": "https://github.com/evilmonkey19/cv",
               "tags": ["Typescript", "Deno", "Fresh", "TailwindCSS", "Full-stack", "CI/CD"]
             },
             {
-              "name": "messiah.com",
+              "name": "Barbería mess1ah",
               "description": "Vaig dissenyar una pàgina web estàtica per a una barberia de Barcelona. Va ser un dels meus primers projectes. La vaig fer utilitzant HTML (Pug), CSS (Stylus) i Javascript pur. Està desplegada a Cloudflare Pages.",
               "href": "https://mess1ah.com",
               "repo": "https://github.com/evilmonkey19/mess1ah",
               "tags": ["HTML", "CSS", "Javascript", "Frontend", "Stylus", "Pug"]
+            },
+            {
+                "name": "Ntc-Templates",
+                "description": "És un projecte de codi obert que conté plantilles de configuració per dispositius de xarxa. Està escrit en Python i s'utilitza per automatizar la configuració de dispositius de xarxa. És un projecte molt popular en l'àmbit de l'automatisme de xarxes. En concret faig totes les plantilles per Huawei Smartax.",
+                "href": "",
+                "repo": "https://github.com/networktocode/ntc-templates",
+                "tags": ["Python", "Network", "Automation", "Open-source"]
+            },
+            {
+                "name": "ET Theater",
+                "description": "Estic dissenyant una web pel grup de teatre improvisat del KTH del que he format part. La web està feta utilitzant Deno, Fresh i TailwindCSS. El requeriment principal és que sigui fàcil de mantenir i que es pugui actualitzar fàcilment. Encara està en desenvolupament.",
+                "href": "https://et-theater.deno.dev",
+                "repo": "https://github.com/evilmonkey19/et-theater",
+                "tags": ["Deno", "Fresh", "TailwindCSS", "Full-stack", "CI/CD"]
             }
         ]
     },

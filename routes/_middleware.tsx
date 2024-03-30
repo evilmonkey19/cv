@@ -39,7 +39,7 @@ function getLanguage(req: Request) : string {
   const cookiesArray = cookies?.split("; ");
   let lang = "";
   cookiesArray?.map((cookie) => {
-    if (cookie.includes("lang")) {
+    if (cookie.startsWith("lang=")) {
       lang = cookie.split("=")[1];
     }
   });

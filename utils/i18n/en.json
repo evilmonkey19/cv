@@ -5,8 +5,8 @@
     },
     "me": {
         "title": "About Me",
-        "description": "Enthusiastic about leveraging technology to enhance lives. I'm a passionate software engineer with a background in computer science and a strong interest in cloud and web development, with a focus on the protocol design and video streaming platforms. I'm a quick learner and a team player, always looking for new challenges and opportunities to grow.",
-        "keywords": ["cloud", "web", "development", "protocol", "design", "video", "streaming"]
+        "description": "I am a network and software engineer, graduate in telecomunications with a double master's in Cloud and network infrastructures in Aalto, Finland, and KTH, Sweden. I have already been involved in open-source projects that thousands of people use daily, and I have also developed several websites with significant traffic. The technical part is important, but the person behind it is even more so if you want to meet, please don't hesitate to contact me!",
+        "keywords": ["engineer", "software", "Cloud", "infrastructures", "network", "telecomunications", "Finland", "Aalto", "KTH", "Sweden", "ntc-templates", "open-source"]
     },
     "education": {
         "title": "education",
@@ -55,18 +55,32 @@
               "tags": ["Python", "Django", "Full-stack", "TailwindCSS", "CI/CD"]
             },
             {
-              "name": "This.web",
+              "name": "Perpinya.eu",
               "description": "I did this website to sharp my skills in Typescript and Deno. I used Fresh as the web framework and TailwindCSS as the CSS framework. I deployed it in Deno Deploy.",
               "href": "https://perpinya.eu",
               "repo": "https://github.com/evilmonkey19/cv",
               "tags": ["Typescript", "Deno", "Fresh", "TailwindCSS", "Full-stack", "CI/CD"]
             },
             {
-              "name": "messiah.com",
+              "name": "Mess1ah barbershop",
               "description": "I designed a static website for a barbershop in Barcelona. It was one of my first projects. I made it using HTML (Pug), CSS (Stylus), and pure Javascript. It is deploy in Cloudflare Pages.",
               "href": "https://mess1ah.com",
               "repo": "https://github.com/evilmonkey19/mess1ah",
               "tags": ["HTML", "CSS", "Javascript", "Frontend", "Stylus", "Pug"]
+            },
+            {
+                "name": "Ntc-Templates",
+                "description": "It is an open source project that contains configuration templates for network devices. It is written in Python and is used to automate the configuration of network devices. It is a very popular project in the network automation world. Specifically I make all the templates for Huawei Smartax.",
+                "href": "",
+                "repo": "https://github.com/networktocode/ntc-templates",
+                "tags": ["Python", "Network", "Automation", "Open-source"]
+            },
+            {
+                "name": "ET Theater",
+                "description": "I'm designing a website for the KTH improvisational theater group I've been part of. The website is made using Deno, Fresh and TailwindCSS. The main requirement is that it should be easy to maintain and easy to update. It is still under development.",
+                "href": "https://et-theater.deno.dev",
+                "repo": "https://github.com/evilmonkey19/et-theater",
+                "tags": ["Deno", "Fresh", "TailwindCSS", "Full-stack", "CI/CD"]
             }
         ]
     },

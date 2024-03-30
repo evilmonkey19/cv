@@ -11,7 +11,7 @@ const Projects = (data: { translation: Translation["projects"] }) => (
           <a href={project.href} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="underline text-lg text-[#00c9c8] hover:text-[#47817f] w-min">
+            className="underline text-lg text-[#00c9c8] hover:text-[#47817f]">
             {project.href}
           </a>
           <p className="text-sm">{project.description}</p>
