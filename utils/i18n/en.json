@@ -40,12 +40,26 @@
     "projects": {
         "title": "projects",
         "projects": [
+            {
+                "name": "FakeNOS",
+                "description": "FakeNOS is an open-source library that simulates the SSH interface of network devices. It is used for testing and developing network automation scripts. I have contributed to the project significantly by adding more than 30 platforms, including Cisco, Huawei, and Juniper. I have also added a CI/CD pipeline that runs the unit tests and the integration tests.",
+                "href": "https://fakenos.github.io/fakenos/",
+                "repo": "https://github.com/fakenos/fakenos/",
+                "tags": ["Python", "Network", "Automation", "Open-source", "CI/CD", "libary", "NOS", "Cisco", "Huawei"]
+            },
             { 
               "name": "Engresca't",
               "description": "Engrescat is a contest held in Barcelona by Telecogresca, the biggest university festival organized by university students in Spain, which brings over 15 000 people. I made this website for deciding the finalist who will be able to perform at the festival. I made it using Wagtail - Django and DaisyUI - TailwindCSS as the main frameworks/ libraries. There is an admin panel to control the phases, editions, contestants, and all the business logic and the content of the website itself.",
               "href": "https://engrescat.org/en/",
-              "repo": "",
-              "tags": ["Python", "Django", "Wagtail", "Full-stack", "TailwindCSS", "CI/CD"]
+              "repo": "https://telecogresca.com",
+              "tags": ["Python", "Django", "Wagtail", "Full-stack", "TailwindCSS", "CI/CD", "testing"]
+            },
+            {
+                "name": "Ntc-Templates",
+                "description": "It is an open source library that helps parsing ssh output commands into structured data. It is used by hundreds of companies and thousands of people. I have contributed to the project by adding new templates for Huawei SmartAX and Alcatel AOS.",
+                "href": "https://github.com/networktocode/ntc-templates",
+                "repo": "https://github.com/networktocode/ntc-templates",
+                "tags": ["Python", "Network", "Automation", "Open-source"]
             },
             {
               "name": "Namubufferi",
@@ -56,7 +70,7 @@
             },
             {
               "name": "Perpinya.eu",
-              "description": "I did this website to sharp my skills in Typescript and Deno. I used Fresh as the web framework and TailwindCSS as the CSS framework. I deployed it in Deno Deploy.",
+              "description": "I did this website to sharp my skills in Typescript and Deno. I used Fresh as the web framework and TailwindCSS as the CSS framework. I deployed it in Deno Deploy. It is used as showcase of Deno framework: https://fresh.deno.dev/showcase.",
               "href": "https://perpinya.eu",
               "repo": "https://github.com/evilmonkey19/cv",
               "tags": ["Typescript", "Deno", "Fresh", "TailwindCSS", "Full-stack", "CI/CD"]
@@ -67,20 +81,6 @@
               "href": "https://mess1ah.com",
               "repo": "https://github.com/evilmonkey19/mess1ah",
               "tags": ["HTML", "CSS", "Javascript", "Frontend", "Stylus", "Pug"]
-            },
-            {
-                "name": "Ntc-Templates",
-                "description": "It is an open source project that contains configuration templates for network devices. It is written in Python and is used to automate the configuration of network devices. It is a very popular project in the network automation world. Specifically I make all the templates for Huawei Smartax.",
-                "href": "",
-                "repo": "https://github.com/networktocode/ntc-templates",
-                "tags": ["Python", "Network", "Automation", "Open-source"]
-            },
-            {
-                "name": "ET Theater",
-                "description": "I'm designing a website for the KTH improvisational theater group I've been part of. The website is made using Deno, Fresh and TailwindCSS. The main requirement is that it should be easy to maintain and easy to update. It is still under development.",
-                "href": "https://et-theater.deno.dev",
-                "repo": "https://github.com/evilmonkey19/et-theater",
-                "tags": ["Deno", "Fresh", "TailwindCSS", "Full-stack", "CI/CD"]
             }
         ]
     },

@@ -10,7 +10,7 @@ const Contact = (data: { translation: Translation["contact"] }) => (
       <p className="text-lg col-span-1 w-min flex flex-row items-center gap-2">
         <IconMail class="inline-block" aria-hidden="true" />
         Email:
-      </p>
+      </p> 
       <a href="mailto:eperpinyapitarch@gmail.com" className="col-span-7 hover:text-[#47817f]">eperpinyapitarch@gmail.com</a>
     </div>
     <div className="xl:grid grid-cols-8 items-center">

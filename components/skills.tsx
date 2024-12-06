@@ -7,6 +7,7 @@ import IconBrandAws from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-a
 import IconBrandDjango from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-django.tsx"
 import IconBrandDeno from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-deno.tsx"
 import IconTerminal2 from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/terminal-2.tsx"
+import IconBrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-github.tsx";
 
 import { Translation } from "../utils/types.ts";
 import { JSX } from "preact";
@@ -56,14 +57,14 @@ const Skills = (data: { translation: Translation["skills"] }) => (
           </Skill>
         </div>
         <div className="flex flex-col gap-1 xl:col-start-5">
-          <Skill text="AWS" mark={7} >
-            <IconBrandAws class="inline-block" aria-hidden="true" />
+          <Skill text="Github" mark={10} >
+            <IconBrandGithub class="inline-block" aria-hidden="true" />
           </Skill>
           <Skill text="Linux/bash" mark={9} >
             <IconTerminal2 class="inline-block" aria-hidden="true" />
           </Skill>
-          <Skill text="Git" mark={9} >
-            <IconBrandGit class="inline-block" aria-hidden="true" />
+          <Skill text="AWS" mark={7} >
+            <IconBrandAws class="inline-block" aria-hidden="true" />
           </Skill>
         </div>
       </div>

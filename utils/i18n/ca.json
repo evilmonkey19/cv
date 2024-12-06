@@ -40,12 +40,26 @@
     "projects": {
         "title": "projectes",
         "projects": [
+            {
+                "name": "FakeNOS",
+                "description": "FakeNOS és una llibreria de codi obert que simula la interfície SSH dels dispositius de xarxa. S'utilitza per provar i desenvolupar scripts d'automatització de xarxes. He contribuït al projecte afegint més de 30 plataformes, incloent Cisco, Huawei i Juniper. També he afegit una canalització CI/CD que executa les proves unitàries i les proves d'integració.",
+                "href": "https://fakenos.github.io/fakenos/ca/",
+                "repo": "https://github.com/fakenos/fakenos/",
+                "tags": ["Python", "Network", "Automation", "Open-source", "CI/CD", "libary", "NOS", "Cisco", "Huawei"]
+            },
             { 
-              "name": "Engresca't",
-              "description": "Engrescat és un concurs que es celebra a Barcelona per Telecogresca, el festival universitari més gran organitzat per universitaris a Espanya, que aplega més de 15 000 persones. Vaig fer aquest lloc web per decidir el finalista que podrà actuar al festival. Ho vaig fer utilitzant Wagtail - Django i DaisyUI - TailwindCSS com a principals frameworks i llibreries. Hi ha un panell d'administració per controlar les fases, edicions, concursants i tota la lògica de negoci i el contingut del lloc web.",
-              "href": "https://engrescat.org/ca/",
-              "repo": "",
-              "tags": ["Python", "Django", "Wagtail", "Full-stack", "TailwindCSS", "CI/CD"]
+                "name": "Engresca't",
+                "description": "Engrescat és un concurs que es celebra a Barcelona per Telecogresca, el festival universitari més gran organitzat per universitaris a Espanya, que aplega més de 15 000 persones. Vaig fer aquest lloc web per decidir el finalista que podrà actuar al festival. Ho vaig fer utilitzant Wagtail - Django i DaisyUI - TailwindCSS com a principals frameworks i llibreries. Hi ha un panell d'administració per controlar les fases, edicions, concursants i tota la lògica de negoci i el contingut del lloc web.",
+                "href": "https://engrescat.org/ca/",
+                "repo": "https://github.com/telecogresca",
+                "tags": ["Python", "Django", "Wagtail", "Full-stack", "TailwindCSS", "CI/CD", "testing"]
+            },
+            {
+                "name": "Ntc-Templates",
+                "description": "És una llibreria de codi obert que ajuda a analitzar les ordres de sortida SSH en dades estructurades. És utilitzat per centenars d'empreses i milers de persones. He contribuït al projecte afegint nous models per a Huawei SmartAX i Alcatel AOS.",
+                "href": "https://github.com/networktocode/ntc-templates",
+                "repo": "https://github.com/networktocode/ntc-templates",
+                "tags": ["Python", "Network", "Automation", "Open-source"]
             },
             {
               "name": "Namubufferi",
@@ -56,7 +70,7 @@
             },
             {
               "name": "Perpinya.eu",
-              "description": "Vaig fer aquesta web per millorar les meves habilitats en Typescript i Deno. Vaig utilitzar Fresh com a framework web i TailwindCSS com a framework CSS. Ho vaig desplegar a Deno Deploy.",
+              "description": "Vaig fer aquesta web per millorar les meves habilitats en Typescript i Deno. Vaig utilitzar Fresh com a framework web i TailwindCSS com a framework CSS. Ho vaig desplegar a Deno Deploy. S'utiliza com a showcase en el framework Fresh: https://fresh.deno.dev/showcase.",
               "href": "https://perpinya.eu",
               "repo": "https://github.com/evilmonkey19/cv",
               "tags": ["Typescript", "Deno", "Fresh", "TailwindCSS", "Full-stack", "CI/CD"]
@@ -67,13 +81,6 @@
               "href": "https://mess1ah.com",
               "repo": "https://github.com/evilmonkey19/mess1ah",
               "tags": ["HTML", "CSS", "Javascript", "Frontend", "Stylus", "Pug"]
-            },
-            {
-                "name": "Ntc-Templates",
-                "description": "És un projecte de codi obert que conté plantilles de configuració per dispositius de xarxa. Està escrit en Python i s'utilitza per automatizar la configuració de dispositius de xarxa. És un projecte molt popular en l'àmbit de l'automatisme de xarxes. En concret faig totes les plantilles per Huawei Smartax.",
-                "href": "",
-                "repo": "https://github.com/networktocode/ntc-templates",
-                "tags": ["Python", "Network", "Automation", "Open-source"]
             },
             {
                 "name": "ET Theater",

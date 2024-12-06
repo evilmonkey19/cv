@@ -40,12 +40,26 @@
     "projects": {
         "title": "proyectos",
         "projects": [
+            {
+                "name": "FakeNOS",
+                "description": "FakeNOS es una librería de código abierto que simula la interfaz SSH de los dispositivos de red. Se utiliza para probar y desarrollar scripts de automatización de redes. He contribuido al proyecto añadiendo más de 30 plataformas, incluyendo Cisco, Huawei y Juniper. También he añadido un pipeline CI/CD que ejecuta las pruebas unitarias y las pruebas de integración.",
+                "href": "https://fakenos.github.io/fakenos/es/",
+                "repo": "https://github.com/fakenos/fakenos/",
+                "tags": ["Python", "Network", "Automation", "Open-source", "CI/CD", "libary", "NOS", "Cisco", "Huawei"]
+            },
             { 
               "name": "Engresca't",
               "description": "Engrescat es un concurso que se celebra en Barcelona por Telecogresca, el mayor festival universitario organizado por universitarios en España, que reúne a más de 15 000 personas. Hice esta web para decidir el finalista que podrá actuar en el festival. Lo hice usando Wagtail - Django y DaisyUI - TailwindCSS como principales frameworks/ librerías. Hay un panel de administración para controlar las fases, ediciones, concursantes, y toda la lógica de negocio y el contenido de la propia web.",
               "href": "https://engrescat.org/es/",
               "repo": "",
-              "tags": ["Python", "Django", "Wagtail", "Full-stack", "TailwindCSS", "CI/CD"]
+              "tags": ["Python", "Django", "Wagtail", "Full-stack", "TailwindCSS", "CI/CD", "Testing"]
+            },
+            {
+                "name": "Ntc-Templates",
+                "description": "Es una librería de código abierto que ayuda a analizar las órdenes de salida SSH en datos estructurados. Es utilizado por cientos de empresas y miles de personas. He contribuido al proyecto añadiendo nuevos modelos para Huawei SmartAX y Alcatel AOS.",
+                "href": "https://github.com/networktocode/ntc-templates",
+                "repo": "https://github.com/networktocode/ntc-templates",
+                "tags": ["Python", "Network", "Automation", "Open-source"]
             },
             {
               "name": "Namubufferi",
@@ -56,7 +70,7 @@
             },
             {
               "name": "Perpinya.eu",
-              "description": "Hice esta web para mejorar mis habilidades en Typescript y Deno. Utilicé Fresh como framework web y TailwindCSS como framework CSS. Lo desplegué en Deno Deploy.",
+              "description": "Hice esta web para mejorar mis habilidades en Typescript y Deno. Utilicé Fresh como framework web y TailwindCSS como framework CSS. Lo desplegué en Deno Deploy. Se utiliza com showcase en el framework Fresh: https://fresh.deno.dev/showcase.",
               "href": "https://perpinya.eu",
               "repo": "https://github.com/evilmonkey19/cv",
               "tags": ["Typescript", "Deno", "Fresh", "TailwindCSS", "Full-stack", "CI/CD"]
@@ -67,13 +81,6 @@
               "href": "https://mess1ah.com",
               "repo": "https://github.com/evilmonkey19/mess1ah",
               "tags": ["HTML", "CSS", "Javascript", "Frontend", "Stylus", "Pug"]
-            },
-            {
-                "name": "Ntc-Templates",
-                "description": "Es un proyecto de código abierto que contiene plantillas de configuración para dispositivos de red. Está escrito en Python y se utiliza para automatizar la configuración de dispositivos de red. Es un proyecto muy popular en el mundo de la automatización de redes. En concreto hago todas las plantillas para Huawei Smartax.",
-                "href": "",
-                "repo": "https://github.com/networktocode/ntc-templates",
-                "tags": ["Python", "Network", "Automation", "Open-source"]
             },
             {
                 "name": "ET Theater",
